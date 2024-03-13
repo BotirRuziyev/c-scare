@@ -1,0 +1,34 @@
+<svg width="140.000000" height="134.000000" viewBox="0 0 140 134" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<filter id="filter_234_2454_dd" x="-0.600098" y="-0.600098" width="140.200195" height="134.200195" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feGaussianBlur in="BackgroundImage" stdDeviation="14.8"/>
+			<feComposite in2="SourceAlpha" operator="in" result="effect_backgroundBlur_1"/>
+			<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+			<feOffset dx="0" dy="0"/>
+			<feGaussianBlur stdDeviation="3.53333"/>
+			<feComposite in2="hardAlpha" operator="out" k2="-1" k3="1"/>
+			<feColorMatrix type="matrix" values="0 0 0 0 0.25098 0 0 0 0 0.34118 0 0 0 0 0.85098 0 0 0 0.7 0"/>
+			<feBlend mode="normal" in2="effect_backgroundBlur_1" result="effect_dropShadow_2"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="effect_dropShadow_2" result="shape"/>
+		</filter>
+		<clipPath id="clip234_2454">
+			<rect id="free-icon-chat-134808 3" rx="8.500000" width="118.000000" height="112.000000" transform="translate(10.500000 10.500000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<g filter="url(#filter_234_2454_dd)">
+		<rect id="free-icon-chat-134808 3" rx="8.500000" width="118.000000" height="112.000000" transform="translate(10.500000 10.500000)" fill="#FFFFFF" fill-opacity="0.050000"/>
+		<rect id="free-icon-chat-134808 3" rx="8.500000" width="118.000000" height="112.000000" transform="translate(10.500000 10.500000)" fill="#071836" fill-opacity="0.500000"/>
+		<g clip-path="url(#clip234_2454)">
+			<path id="Vector" d="M44.91 60.92L60.89 60.92C61.57 60.92 62.12 60.37 62.12 59.69C62.12 59.01 61.57 58.46 60.89 58.46L44.91 58.46C44.23 58.46 43.68 59.01 43.68 59.69C43.68 60.37 44.23 60.92 44.91 60.92Z" fill="#4057D9" fill-opacity="1.000000" fill-rule="nonzero"/>
+			<path id="Vector" d="M76.87 65.84L44.91 65.84C44.23 65.84 43.68 66.39 43.68 67.07C43.68 67.75 44.23 68.3 44.91 68.3L76.87 68.3C77.55 68.3 78.1 67.75 78.1 67.07C78.1 66.39 77.55 65.84 76.87 65.84Z" fill="#4057D9" fill-opacity="1.000000" fill-rule="nonzero"/>
+			<path id="Vector" d="M76.87 73.21L44.91 73.21C44.23 73.21 43.68 73.76 43.68 74.44C43.68 75.12 44.23 75.67 44.91 75.67L76.87 75.67C77.55 75.67 78.1 75.12 78.1 74.44C78.1 73.76 77.55 73.21 76.87 73.21Z" fill="#4057D9" fill-opacity="1.000000" fill-rule="nonzero"/>
+			<path id="Vector" d="M102.8 28.09L55.56 28C51.04 28 47.36 31.71 47.36 36.29L47.36 43.45L36.2 43.47C31.67 43.47 28 47.19 28 51.77L28 81.32C28 85.9 31.67 89.61 36.2 89.61L44.6 89.61L44.6 103.6C44.6 104.17 44.95 104.69 45.48 104.9C45.64 104.96 45.81 105 45.98 105C46.36 105 46.74 104.83 47 104.54L60.43 89.61L83.43 89.52C87.95 89.52 91.63 85.8 91.63 81.23L91.63 81.07L98.9 89.16C99.17 89.46 99.55 89.62 99.93 89.62C100.1 89.62 100.27 89.59 100.43 89.52C100.96 89.31 101.31 88.8 101.31 88.22L101.31 74.24L102.79 74.24C107.32 74.24 111 70.52 111 65.95L111 36.38C111 31.81 107.32 28.09 102.8 28.09ZM88.86 81.23C88.86 84.26 86.42 86.72 83.42 86.72L59.81 86.82C59.42 86.82 59.05 86.98 58.79 87.27L47.36 99.98L47.36 88.22C47.36 87.44 46.74 86.82 45.98 86.82L36.2 86.82C33.2 86.82 30.76 84.35 30.76 81.32L30.76 51.76C30.76 48.73 33.2 46.27 36.2 46.27L48.75 46.24C48.75 46.24 48.75 46.24 48.75 46.24L83.43 46.17C86.42 46.17 88.86 48.64 88.86 51.66L88.86 77.45L88.86 81.23ZM108.23 65.94C108.23 68.97 105.79 71.44 102.79 71.44L99.93 71.44C99.16 71.44 98.55 72.06 98.55 72.84L98.55 84.6L91.63 76.91L91.63 51.67C91.63 47.09 87.95 43.38 83.42 43.38L50.13 43.44L50.13 36.28C50.13 33.25 52.57 30.79 55.56 30.79L102.79 30.89C102.79 30.89 102.79 30.89 102.79 30.89C105.79 30.89 108.23 33.35 108.23 36.38L108.23 65.94Z" fill="#4057D9" fill-opacity="1.000000" fill-rule="nonzero"/>
+		</g>
+	</g>
+	<rect id="free-icon-chat-134808 3" rx="8.500000" width="118.000000" height="112.000000" transform="translate(10.500000 10.500000)" stroke="#4057D9" stroke-opacity="0" stroke-width="1.000000"/>
+	<rect id="free-icon-chat-134808 3" rx="8.500000" width="118.000000" height="112.000000" transform="translate(10.500000 10.500000)" stroke="#FFFFFF" stroke-opacity="0.100000" stroke-width="1.000000"/>
+</svg>
