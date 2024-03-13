@@ -52,6 +52,10 @@
         line-height: 23px;
         letter-spacing: 0%;
         text-align: left;
+        transition: 0.3s;
+        &:hover {
+          color: rgb(255, 255, 255);
+        }
       }
     }
     .header_auth {
@@ -68,6 +72,12 @@
         letter-spacing: 1px;
         text-align: center;
         white-space: nowrap;
+        transition: 0.3s;
+        &:hover {
+          background: #f7931e;
+          color: rgb(255, 255, 255);
+          border-color: #f7931e;
+        }
       }
       .sign_up {
         border: 1px solid rgb(247, 147, 30);
@@ -80,6 +90,10 @@
         letter-spacing: 1px;
         text-align: center;
         white-space: nowrap;
+        transition: 0.3s;
+        &:hover {
+          background: #f7931e;
+        }
       }
     }
     .burger_menu {

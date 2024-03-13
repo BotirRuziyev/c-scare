@@ -1,7 +1,7 @@
 <template>
   <div class="free_access">
     <p class="description"><span>Reveal</span> your clients’ potential</p>
-    <nuxt-link to="https://kun.uz" class="free_access_link"
+    <nuxt-link to="#" class="free_access_link"
       >Get 30 days access for free</nuxt-link
     >
   </div>
@@ -31,6 +31,7 @@
     padding: 22px 45px;
     border-radius: 5px;
     background: rgb(247, 147, 30);
+    border: 1px solid rgb(247, 147, 30);
     color: rgb(255, 255, 255);
     font-size: 16px;
     font-weight: 500;
@@ -39,6 +40,11 @@
     text-align: center;
     text-transform: uppercase;
     cursor: pointer;
+    transition: 0.3s;
+    &:hover {
+      background-color: transparent;
+      color: rgb(247, 147, 30);
+    }
   }
 }
 @media (max-width: 768px) {

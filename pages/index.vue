@@ -158,7 +158,7 @@
                 </div>
               </div>
             </div>
-            <img src="~/assets/img/cards/1.png" alt="1" />
+            <img class="card_img" src="~/assets/img/cards/1.png" alt="1" />
             <div class="interest">
               <div class="interest_top">
                 <svg
@@ -206,7 +206,7 @@
               <div class="list_item">Suspicious IP: 7</div>
               <div class="list_item">Suspicious emails: 7</div>
             </div>
-            <img src="~/assets/img/cards/2.png" alt="2" />
+            <img class="card_img" src="~/assets/img/cards/2.png" alt="2" />
             <div class="card_img_bottom_list">VIP users quantity: 22</div>
             <div class="card_img_right_list">
               <div class="list_item">Low social activity: 6</div>
@@ -261,7 +261,7 @@
                 alt="agreement"
               />
             </div>
-            <img src="~/assets/img/cards/3.png" alt="3" />
+            <img class="card_img" src="~/assets/img/cards/3.png" alt="3" />
           </div>
         </div>
       </div>
@@ -414,6 +414,9 @@ export default {
       letter-spacing: 1.3px;
       text-align: center;
       transition: 0.3s;
+      &:hover {
+        color: rgb(255, 255, 255);
+      }
     }
     .active {
       color: rgb(255, 255, 255);
@@ -569,6 +572,7 @@ export default {
           padding: 22px;
           border-radius: 5px;
           background: rgb(247, 147, 30);
+          border: 1px solid rgb(247, 147, 30);
           color: rgb(255, 255, 255);
           font-size: 16px;
           font-weight: 500;
@@ -576,6 +580,11 @@ export default {
           letter-spacing: 0.5px;
           text-align: center;
           text-transform: uppercase;
+          transition: 0.3s;
+          &:hover {
+            background-color: transparent;
+            color: rgb(247, 147, 30);
+          }
         }
       }
       .card_list {
@@ -696,6 +705,14 @@ export default {
     padding: 60px 0;
     position: relative;
     z-index: 2;
+    &:hover {
+      .right_block {
+        .card_img {
+          transform: scale(1.2);
+        }
+      }
+    }
+
     .card_body {
       padding: 72px 0 80px;
       .title {
@@ -1055,6 +1072,9 @@ export default {
         right: 24px;
         bottom: 51px;
         z-index: 2;
+      }
+      .card_img {
+        transition: 0.3s;
       }
     }
   }
