@@ -783,6 +783,7 @@ export default {
   background-size: cover;
   .card_item_wrapper {
     .card_item {
+      align-items: center;
       gap: 0;
       margin: 0;
       padding: 60px 0;
@@ -806,7 +807,6 @@ export default {
         padding-bottom: 0;
         max-height: 100%;
         min-height: 100%;
-        height: 450px;
       }
       .card_body {
         padding: 72px 0 80px;
@@ -839,6 +839,7 @@ export default {
         align-items: center;
         justify-content: center;
         height: 100%;
+        min-height: 402px;
         .about_user {
           position: absolute;
           top: 0;
