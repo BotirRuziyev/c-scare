@@ -1,8 +1,8 @@
 <template>
   <footer class="footer">
     <div class="main_container">
-      <div class="footer_menu">
-        <div class="menu_card">
+      <v-row class="footer_menu p-0">
+        <v-col class="menu_card" cols="12" sm="6" md="3" lg="3">
           <div class="head">Products</div>
           <nuxt-link to="#" class="nav_link">User scoring</nuxt-link>
           <nuxt-link to="#" class="nav_link">Group scoring</nuxt-link>
@@ -10,21 +10,21 @@
           <nuxt-link to="#" class="nav_link"
             >Traffic profitability forecast</nuxt-link
           >
-        </div>
-        <div class="menu_card">
+        </v-col>
+        <v-col class="menu_card" cols="12" sm="6" md="3" lg="3">
           <div class="head">Industries</div>
           <nuxt-link to="#" class="nav_link">I-GAMING</nuxt-link>
           <nuxt-link to="#" class="nav_link">Fintech</nuxt-link>
           <nuxt-link to="#" class="nav_link">Crypto</nuxt-link>
           <nuxt-link to="#" class="nav_link">Trading</nuxt-link>
-        </div>
-        <div class="menu_card">
+        </v-col>
+        <v-col class="menu_card" cols="12" sm="6" md="3" lg="3">
           <div class="head">Guidelines</div>
           <nuxt-link to="#" class="nav_link">Guides & Reports</nuxt-link>
           <nuxt-link to="#" class="nav_link">Success stories</nuxt-link>
           <nuxt-link to="#" class="nav_link">Blog</nuxt-link>
-        </div>
-        <div class="menu_card">
+        </v-col>
+        <v-col class="menu_card" cols="12" sm="6" md="3" lg="3">
           <div class="head">C-SCORE</div>
           <nuxt-link to="#" class="nav_link">News</nuxt-link>
           <nuxt-link to="#" class="nav_link">Partners</nuxt-link>
@@ -33,9 +33,9 @@
           <nuxt-link to="#" class="nav_link">API’s</nuxt-link>
           <nuxt-link to="#" class="nav_link">Contacts</nuxt-link>
           <nuxt-link to="#" class="nav_link">Pricing</nuxt-link>
-        </div>
-      </div>
-      <div class="messengers">
+        </v-col>
+      </v-row>
+      <div class="messengers d-flex align-center justify-space-between">
         <div class="left_block">
           For media partners: <nuxt-link to="#">pr@c-score.io</nuxt-link>
         </div>
@@ -57,7 +57,7 @@
           </a>
         </div>
       </div>
-      <div class="footer_bottom">
+      <div class="footer_bottom d-md-flex">
         <div class="logo">
           <nuxt-link to="/">
             <img src="~/assets/img/logo.svg" alt="" />
@@ -81,9 +81,6 @@
   background: rgb(1, 14, 38);
   padding: 48px 0 30px;
   .footer_menu {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
     .menu_card {
       .head {
         color: rgb(255, 255, 255);
@@ -111,9 +108,6 @@
     }
   }
   .messengers {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     padding: 21px 0;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     border-top: 1px solid rgba(255, 255, 255, 0.1);
@@ -142,9 +136,6 @@
     }
   }
   .footer_bottom {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     padding-top: 20px;
     .copyright {
       color: rgb(163, 163, 197);
@@ -171,11 +162,11 @@
     }
   }
 }
-@media (max-width: 992px) {
+@media (max-width: 960px) {
   .footer {
-    .footer_menu {
-      grid-template-columns: repeat(2, 1fr);
-    }
+    // .footer_menu {
+    //   grid-template-columns: repeat(2, 1fr);
+    // }
     .footer_bottom {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
@@ -191,10 +182,10 @@
     }
   }
 }
-@media (max-width: 576px) {
+@media (max-width: 600px) {
   .footer {
     .footer_menu {
-      grid-template-columns: repeat(1, 1fr);
+      // grid-template-columns: repeat(1, 1fr);
       .menu_card {
         .head {
           font-size: 14px;

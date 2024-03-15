@@ -1,24 +1,26 @@
 <template>
   <header class="header">
     <div class="main_container">
-      <div class="header_in">
+      <div class="header_in d-flex align-center justify-space-between">
         <div class="logo">
           <a href="#">
             <img src="~/assets/img/logo.svg" alt="logo" />
           </a>
         </div>
-        <div class="header_menu">
+        <div
+          class="header_menu d-md-flex d-none align-center justify-space-between"
+        >
           <a href="#">Products</a>
           <a href="#">Solutions</a>
           <a href="#">Resources</a>
           <a href="#">About us</a>
           <a href="#">Pricing</a>
         </div>
-        <div class="header_auth">
+        <div class="header_auth d-md-flex d-none">
           <nuxt-link to="#" class="sign_in">Sign in</nuxt-link>
           <nuxt-link to="#" class="sign_up">Start free</nuxt-link>
         </div>
-        <button class="burger_menu">
+        <button class="burger_menu d-md-none d-block">
           <img height="50" src="~/assets/img/burger.png" alt="" />
         </button>
       </div>
@@ -34,15 +36,9 @@
   left: 0;
   z-index: 2;
   .header_in {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     gap: 30px;
     padding: 15px 0;
     .header_menu {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
       max-width: 550px;
       width: 100%;
       a {
@@ -59,7 +55,6 @@
       }
     }
     .header_auth {
-      display: flex;
       gap: 10px;
       .sign_in {
         border: 1px solid rgba(106, 106, 165, 0.6);
@@ -96,22 +91,12 @@
         }
       }
     }
-    .burger_menu {
-      display: none;
-    }
   }
 }
-@media (max-width: 992px) {
+@media (max-width: 960px) {
   .header {
     .header_in {
-      .header_menu {
-        display: none;
-      }
-      .header_auth {
-        display: none;
-      }
       .burger_menu {
-        display: block;
         img {
           filter: brightness(0) saturate(100%) invert(85%) sepia(93%)
             saturate(39%) hue-rotate(225deg) brightness(108%) contrast(101%);
@@ -120,7 +105,7 @@
     }
   }
 }
-@media (max-width: 576px) {
+@media (max-width: 600px) {
   .header {
     .header_in {
       .logo {

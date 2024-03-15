@@ -1,5 +1,5 @@
 <template>
-  <div class="free_access">
+  <div class="free_access d-flex flex-column align-center">
     <p class="description"><span>Reveal</span> your clients’ potential</p>
     <nuxt-link to="#" class="free_access_link"
       >Get 30 days access for free</nuxt-link
@@ -11,9 +11,6 @@
 .free_access {
   background: rgb(255, 255, 255);
   padding: 90px 20px 73px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   .description {
     font-size: 50px;
     font-weight: 500;
