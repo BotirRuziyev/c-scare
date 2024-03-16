@@ -700,10 +700,6 @@ export default {
     }
     .enterprise_cards {
       margin: 0;
-      .card_item_wrapper {
-        padding-left: 0;
-        padding-right: 0;
-      }
       .card_item {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -1192,6 +1188,12 @@ export default {
     .enterprise_container {
       .enterprise_plan {
         gap: 30px;
+      }
+      .enterprise_cards {
+        .card_item_wrapper {
+          padding-left: 0;
+          padding-right: 0;
+        }
       }
     }
   }
